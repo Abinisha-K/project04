@@ -5,34 +5,43 @@ const questions = [
             { text: "Colored Special Sheets", correct: false },
             { text: "Cascading Style Sheet", correct: true },
             { text: "Color and style Sheet", correct: false },
-            { text: "Giraffe", correct: false },
+            { text: "None of the above", correct: false },
         ]
     },
     {
-        question: "Which is smallast country in the world?",
+        question: " How can we change the background color of an element?",
         answers: [
-            { text: "Vatican City", correct: true },
-            { text: "Bhutan", correct: false },
-            { text: "Nepal", correct: false },
-            { text: "Shri Lanka", correct: false },
+            { text: "background-color", correct: true },
+            { text: "color", correct: false },
+            { text: "both a and b", correct: false },
+            { text: "None of the Above", correct: false },
         ]
     },
     {
-        question: "Which is largest desert in the world?",
+        question: "How can we change the text color of an element?",
         answers: [
-            { text: "Kalahari", correct: false },
-            { text: "Gobi", correct: false },
-            { text: "Sahara", correct: false },
-            { text: "Antarctica", correct: true },
+            { text: "background-color", correct: false },
+            { text: "color", correct: true },
+            { text: "both A and b", correct: false },
+            { text: "None of the Above", correct: false },
         ]
     },
     {
-        question: "Which is smallest continent in the world?",
+        question: "Which HTML tag is used to declare internal CSS?",
         answers: [
-            { text: "Asia", correct: false },
-            { text: "Australia", correct: true },
-            { text: "Arctic", correct: false },
-            { text: "Africa", correct: false },
+            { text: "style", correct: true },
+            { text: "link", correct: false },
+            { text: "script", correct: false },
+            { text: "None of the Above", correct: false },
+        ]
+    },
+    {
+        question: "How we can select on element with a specific ID in CSS?",
+        answers: [
+            { text: ".", correct: false},
+            { text: "#", correct: true },
+            { text: "^", correct: false },
+            { text: "None of the Above", correct: false },
         ]
     }
     
