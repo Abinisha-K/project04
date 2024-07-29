@@ -1,10 +1,10 @@
 const questions = [
     {
-        question: "Which is largest animal in the world?",
+        question: "What is the full form of CSS?",
         answers: [
-            { text: "Shark", correct: false },
-            { text: "Blue whale", correct: true },
-            { text: "Elephant", correct: false },
+            { text: "Colored Special Sheets", correct: false },
+            { text: "Cascading Style Sheet", correct: true },
+            { text: "Color and style Sheet", correct: false },
             { text: "Giraffe", correct: false },
         ]
     },
